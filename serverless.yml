@@ -11,6 +11,8 @@ package:
 
 custom:
   logRetentionInDays: 30
+  serverless-offline:
+    useChildProcesses: true
   webpack:
     webpackConfig: "webpack.config.js"
     packager: "npm"
