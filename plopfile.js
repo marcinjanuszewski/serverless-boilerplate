@@ -1,6 +1,6 @@
 const path = require("path");
 
-const databaseConfigLocation = path.join(__dirname, "shared/config/db.config.ts");
+const databaseConfigLocation = path.join(__dirname, "shared/config/db.ts");
 
 const isNotEmptyFor = (name) => {
   return (value) => {
